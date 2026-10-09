@@ -1,0 +1,18 @@
+# Local Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Archives and downloaded images
+*.zip
+data/images/
+
+# Previous model output
+data/catalog_embeddings.npz
